@@ -1,4 +1,4 @@
-const createLighthouse = require('lighthouse-lambda');
+const lighthouse = require('lighthouse-lambda');
 const util = require('util');
 const options = {
     onlyCategories: ['performance'],
@@ -10,7 +10,7 @@ const urlBeingTested = 'https://gizmodo.com';
 
 exports.handler = function (event, context, callback) {
   Promise.resolve()
-    .then(() => createLighthouse(urlBeingTested, options))
+    .then(() => lighthouse(urlBeingTested, options))
     .then(({ chrome, start }) => {
       return start()
         .then((results) => {
