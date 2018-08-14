@@ -4,7 +4,11 @@ Proof of concept for running [Lighthouse](https://github.com/GoogleChrome/lighth
 
 **Run Locally:**  
 
-`docker run --rm -v "$PWD":/var/task lambci/lambda:nodejs8.10 index.handler`
+```
+npm install 
+
+docker run --rm -v "$PWD":/var/task lambci/lambda:nodejs8.10 index.handler
+```
 
 <br/>
 
