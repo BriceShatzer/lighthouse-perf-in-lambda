@@ -12,4 +12,4 @@ docker run --rm -v "$PWD":/var/task lambci/lambda:nodejs8.10 index.handler
 
 <br/>
 
-*Based on  [lighthouse-lambda](lighthousehttps://github.com/joytocode/lighthouse-lambda)*
+*Based on  [lighthouse-lambda](https://github.com/joytocode/lighthouse-lambda)*
