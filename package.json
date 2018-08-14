@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brice Shatzer (bshatzer@kinja.com)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lighthouse-lambda": "^3.1.1"
   }
